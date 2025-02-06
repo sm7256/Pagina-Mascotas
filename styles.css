@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f0f0e4;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: block;
+    background-color: #8b8b6f;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #6f6f5a;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.servicio {
+    width: 30%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 2px black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f0f0e4;
+}
+
+.subinfo {
+    text-align: center;
+    width: 30%;
+}
+
+.subinfo-icon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.subinfo-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8b8b6f;
+    color: white;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #555;
+}
+
+/* New CSS code for contact section */
+.contacto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contacto-info {
+  text-align: center;
+}
+
+.contacto-info p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.contacto-info strong {
+  font-weight: bold;
+  color: #333;
+}
+img {
+    width: 300px;
+    height: 200px;
+  }
+  
+  
+  
